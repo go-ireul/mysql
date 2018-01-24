@@ -514,7 +514,7 @@ func parseDSNParams(cfg *Config, params string) (err error) {
 
 		// Strict mode
 		case "strict":
-			panic("strict mode has been removed. See https://github.com/go-sql-driver/mysql/wiki/strict-mode")
+			panic("strict mode has been removed. See https://ireul.com/mysql/wiki/strict-mode")
 
 		// Dial Timeout
 		case "timeout":
